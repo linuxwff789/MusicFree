@@ -39,37 +39,22 @@
 
 在 MusicFree 里「我的 → 插件 → 从 URL 安装插件」，填入插件文件直链：
 
-
-
 ```
-
 https://raw.githubusercontent.com/linuxwff789/multi-source.js/main/multi-source.js
-
 ```
-
-
 
 国内访问 raw.githubusercontent.com 不稳定时，可改用 jsDelivr 镜像：
 
-
-
 ```
-
 https://cdn.jsdelivr.net/gh/linuxwff789/multi-source.js@main/multi-source.js
-
 ```
-
-
 
 - 插件源码与说明：<https://github.com/linuxwff789/multi-source.js>
-
 - 功能：一次查询并行打通 QQ音乐 / 网易云 / Audiomack，同曲合并去重；原生源取不到播放地址时
-
   自动跨平台换源；三个平台的歌单都支持直接粘贴分享文本 / 链接 / 歌单 ID 导入。
 
-
-
 ## 项目使用约定：
+
 本项目基于 AGPL 3.0 协议开源，使用此项目时请遵守开源协议。  
 除此外，希望你在使用代码时已经了解以下额外说明：
 
