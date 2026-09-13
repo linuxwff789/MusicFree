@@ -33,6 +33,42 @@
 > - 本软件的相关信息**只会主动投放在 Git 仓库以及公众号“一只猫头猫”中**，如果希望写文章介绍本软件请自便，但还烦请**如实陈述，涉及到示例仓库请给插件源打个码**，不要给软件增加一些不实的功能（尽管我也想有）；描述冲突的地方以本仓库为准。
 
 
+## 本分支的插件（linuxwff789）
+
+本 fork 配套的 MusicFree 插件：**多源歌单（QQ音乐 + 网易云 + Audiomack）**。
+
+在 MusicFree 里「我的 → 插件 → 从 URL 安装插件」，填入插件文件直链：
+
+
+
+```
+
+https://raw.githubusercontent.com/linuxwff789/multi-source.js/main/multi-source.js
+
+```
+
+
+
+国内访问 raw.githubusercontent.com 不稳定时，可改用 jsDelivr 镜像：
+
+
+
+```
+
+https://cdn.jsdelivr.net/gh/linuxwff789/multi-source.js@main/multi-source.js
+
+```
+
+
+
+- 插件源码与说明：<https://github.com/linuxwff789/multi-source.js>
+
+- 功能：一次查询并行打通 QQ音乐 / 网易云 / Audiomack，同曲合并去重；原生源取不到播放地址时
+
+  自动跨平台换源；三个平台的歌单都支持直接粘贴分享文本 / 链接 / 歌单 ID 导入。
+
+
+
 ## 项目使用约定：
 本项目基于 AGPL 3.0 协议开源，使用此项目时请遵守开源协议。  
 除此外，希望你在使用代码时已经了解以下额外说明：
